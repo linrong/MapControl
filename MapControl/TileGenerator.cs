@@ -15,7 +15,7 @@ namespace MapControl
         internal const double TileSize = 256;
 
         private const string TileFormat = @"http://tile.openstreetmap.org/{0}/{1}/{2}.png";
-
+        //private const string TileFormat = @"http://webst04.is.autonavi.com/appmaptile?style=6&x={0}&y={1}&z={2}";//高德地图
         /// <summary>This event is never called.</summary>
         [Obsolete("This event has been replaced by DownloadCountChanged.", false)]
         public static event EventHandler<DownloadProgressEventArgs> ImageDownloadingProgress
